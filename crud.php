@@ -1,5 +1,5 @@
 <?php
-    $opcao = $_POST['tipocrud'];
+    $opcao = isset($_POST['tipoCRUD']);
     switch($opcao)
     {
         case "C":
