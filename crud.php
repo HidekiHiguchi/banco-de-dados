@@ -1,5 +1,5 @@
 <?php
-    $opcao = isset($_POST['tipoCRUD']);
+    $opcao = isset($_POST['tipoCRUD']); //...
     switch($opcao)
     {
         case "C":
@@ -38,6 +38,6 @@
                 </form>";
         break; 
     }
-    echo $formulario;
+    echo '$formulario'; //´pra q isso
 
 ?>
